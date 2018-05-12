@@ -1,0 +1,26 @@
+Consumer Key (API Key)  
+ZSh6PfXZzVZl2iSrwpMXeiNkW
+
+Consumer Secret (API Secret) sc7RXbO7LXocrdnuWfaube6VinvWx6HWKc0IxTvyEoLMnCf2xZ
+
+Access Token	
+919581457982640128-ullOyY52aA057rB3bBp0P0j7xBrEJFg
+
+Access Token Secret
+7qnHxbaEE3NnG5XwAxC1IKGBZnPcuAWIWG6Gpl7LiOdpQ
+
+Owner ID
+919581457982640128
+
+
+Google API
+AIzaSyDdJK0gaxyg-zmBV2GsnFmA61CcPuQak2I
+
+AWSAccessKeyId=AKIAICJRBWFFTCLWR5HQ
+
+AWSSecretKey=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
+
+
+http://django-env.dwcmtykqfm.us-west-2.elasticbeanstalk.com/
+
+https://github.com/glancyrod27/Tweet-Map/tree/1.0

@@ -1,0 +1,89 @@
+[2017-12-15T11:14:07,023][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-15T11:14:07,141][INFO ][o.e.e.NodeEnvironment    ] [vukpIBq] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [71.9gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+[2017-12-15T11:14:07,142][INFO ][o.e.e.NodeEnvironment    ] [vukpIBq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-15T11:14:07,253][INFO ][o.e.n.Node               ] node name [vukpIBq] derived from node ID [vukpIBqAQ4q-S6D-39n8Xg]; set [node.name] to override
+[2017-12-15T11:14:07,253][INFO ][o.e.n.Node               ] version[5.6.3], pid[851], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Mac OS X/10.13.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-12-15T11:14:07,254][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/glancyrodrigues/NYU/Masters/Semester 3/Cloud/Assignments/Assignment1/elasticsearch-5.6.3]
+[2017-12-15T11:14:08,231][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [aggs-matrix-stats]
+[2017-12-15T11:14:08,231][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [ingest-common]
+[2017-12-15T11:14:08,231][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-expression]
+[2017-12-15T11:14:08,232][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-groovy]
+[2017-12-15T11:14:08,232][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-mustache]
+[2017-12-15T11:14:08,232][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-painless]
+[2017-12-15T11:14:08,232][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [parent-join]
+[2017-12-15T11:14:08,232][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [percolator]
+[2017-12-15T11:14:08,232][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [reindex]
+[2017-12-15T11:14:08,233][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [transport-netty3]
+[2017-12-15T11:14:08,233][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [transport-netty4]
+[2017-12-15T11:14:08,233][INFO ][o.e.p.PluginsService     ] [vukpIBq] no plugins loaded
+[2017-12-15T11:14:09,836][INFO ][o.e.d.DiscoveryModule    ] [vukpIBq] using discovery type [zen]
+[2017-12-15T11:14:10,567][INFO ][o.e.n.Node               ] initialized
+[2017-12-15T11:14:10,567][INFO ][o.e.n.Node               ] [vukpIBq] starting ...
+[2017-12-15T11:14:10,832][INFO ][o.e.t.TransportService   ] [vukpIBq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-15T11:14:13,902][INFO ][o.e.c.s.ClusterService   ] [vukpIBq] new_master {vukpIBq}{vukpIBqAQ4q-S6D-39n8Xg}{FLw5uGyyTJC_7VLFXSkDvw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-15T11:14:13,957][INFO ][o.e.h.n.Netty4HttpServerTransport] [vukpIBq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-15T11:14:13,957][INFO ][o.e.n.Node               ] [vukpIBq] started
+[2017-12-15T11:14:14,328][INFO ][o.e.g.GatewayService     ] [vukpIBq] recovered [6] indices into cluster_state
+[2017-12-15T11:14:15,266][INFO ][o.e.c.r.a.AllocationService] [vukpIBq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[idx_twp][2]] ...]).
+[2017-12-15T18:10:25,062][INFO ][o.e.n.Node               ] [vukpIBq] stopping ...
+[2017-12-15T18:10:25,146][INFO ][o.e.n.Node               ] [vukpIBq] stopped
+[2017-12-15T18:10:25,146][INFO ][o.e.n.Node               ] [vukpIBq] closing ...
+[2017-12-15T18:10:25,156][INFO ][o.e.n.Node               ] [vukpIBq] closed
+[2017-12-15T19:32:55,731][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-15T19:32:55,827][INFO ][o.e.e.NodeEnvironment    ] [vukpIBq] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [70gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+[2017-12-15T19:32:55,827][INFO ][o.e.e.NodeEnvironment    ] [vukpIBq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-15T19:32:55,928][INFO ][o.e.n.Node               ] node name [vukpIBq] derived from node ID [vukpIBqAQ4q-S6D-39n8Xg]; set [node.name] to override
+[2017-12-15T19:32:55,928][INFO ][o.e.n.Node               ] version[5.6.3], pid[2074], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Mac OS X/10.13.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-12-15T19:32:55,928][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/glancyrodrigues/NYU/Masters/Semester 3/Cloud/Assignments/Assignment1/elasticsearch-5.6.3]
+[2017-12-15T19:32:57,196][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [aggs-matrix-stats]
+[2017-12-15T19:32:57,196][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [ingest-common]
+[2017-12-15T19:32:57,196][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-expression]
+[2017-12-15T19:32:57,196][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-groovy]
+[2017-12-15T19:32:57,196][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-mustache]
+[2017-12-15T19:32:57,197][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-painless]
+[2017-12-15T19:32:57,197][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [parent-join]
+[2017-12-15T19:32:57,197][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [percolator]
+[2017-12-15T19:32:57,197][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [reindex]
+[2017-12-15T19:32:57,197][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [transport-netty3]
+[2017-12-15T19:32:57,197][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [transport-netty4]
+[2017-12-15T19:32:57,198][INFO ][o.e.p.PluginsService     ] [vukpIBq] no plugins loaded
+[2017-12-15T19:32:58,648][INFO ][o.e.d.DiscoveryModule    ] [vukpIBq] using discovery type [zen]
+[2017-12-15T19:32:59,693][INFO ][o.e.n.Node               ] initialized
+[2017-12-15T19:32:59,694][INFO ][o.e.n.Node               ] [vukpIBq] starting ...
+[2017-12-15T19:32:59,917][INFO ][o.e.t.TransportService   ] [vukpIBq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-15T19:33:02,983][INFO ][o.e.c.s.ClusterService   ] [vukpIBq] new_master {vukpIBq}{vukpIBqAQ4q-S6D-39n8Xg}{XcZwziU_Q1GuYYaG77Js4Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-15T19:33:03,007][INFO ][o.e.h.n.Netty4HttpServerTransport] [vukpIBq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-15T19:33:03,007][INFO ][o.e.n.Node               ] [vukpIBq] started
+[2017-12-15T19:33:03,416][INFO ][o.e.g.GatewayService     ] [vukpIBq] recovered [6] indices into cluster_state
+[2017-12-15T19:33:04,636][INFO ][o.e.c.r.a.AllocationService] [vukpIBq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[idx_twp][1], [idx_twp][2]] ...]).
+[2017-12-15T20:27:07,039][INFO ][o.e.n.Node               ] [vukpIBq] stopping ...
+[2017-12-15T20:27:07,104][INFO ][o.e.n.Node               ] [vukpIBq] stopped
+[2017-12-15T20:27:07,105][INFO ][o.e.n.Node               ] [vukpIBq] closing ...
+[2017-12-15T20:27:07,113][INFO ][o.e.n.Node               ] [vukpIBq] closed
+[2017-12-15T23:55:00,709][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-12-15T23:55:00,791][INFO ][o.e.e.NodeEnvironment    ] [vukpIBq] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [69.9gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+[2017-12-15T23:55:00,791][INFO ][o.e.e.NodeEnvironment    ] [vukpIBq] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-12-15T23:55:00,888][INFO ][o.e.n.Node               ] node name [vukpIBq] derived from node ID [vukpIBqAQ4q-S6D-39n8Xg]; set [node.name] to override
+[2017-12-15T23:55:00,889][INFO ][o.e.n.Node               ] version[5.6.3], pid[2576], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Mac OS X/10.13.2/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_101/25.101-b13]
+[2017-12-15T23:55:00,889][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/Users/glancyrodrigues/NYU/Masters/Semester 3/Cloud/Assignments/Assignment1/elasticsearch-5.6.3]
+[2017-12-15T23:55:01,795][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [aggs-matrix-stats]
+[2017-12-15T23:55:01,795][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [ingest-common]
+[2017-12-15T23:55:01,795][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-expression]
+[2017-12-15T23:55:01,795][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-groovy]
+[2017-12-15T23:55:01,796][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-mustache]
+[2017-12-15T23:55:01,796][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [lang-painless]
+[2017-12-15T23:55:01,796][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [parent-join]
+[2017-12-15T23:55:01,797][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [percolator]
+[2017-12-15T23:55:01,797][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [reindex]
+[2017-12-15T23:55:01,797][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [transport-netty3]
+[2017-12-15T23:55:01,797][INFO ][o.e.p.PluginsService     ] [vukpIBq] loaded module [transport-netty4]
+[2017-12-15T23:55:01,799][INFO ][o.e.p.PluginsService     ] [vukpIBq] no plugins loaded
+[2017-12-15T23:55:03,531][INFO ][o.e.d.DiscoveryModule    ] [vukpIBq] using discovery type [zen]
+[2017-12-15T23:55:04,573][INFO ][o.e.n.Node               ] initialized
+[2017-12-15T23:55:04,574][INFO ][o.e.n.Node               ] [vukpIBq] starting ...
+[2017-12-15T23:55:04,850][INFO ][o.e.t.TransportService   ] [vukpIBq] publish_address {127.0.0.1:9300}, bound_addresses {[fe80::1]:9300}, {[::1]:9300}, {127.0.0.1:9300}
+[2017-12-15T23:55:07,915][INFO ][o.e.c.s.ClusterService   ] [vukpIBq] new_master {vukpIBq}{vukpIBqAQ4q-S6D-39n8Xg}{0x4NXoAFQFSLlNmk-WfC4Q}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-12-15T23:55:07,956][INFO ][o.e.h.n.Netty4HttpServerTransport] [vukpIBq] publish_address {127.0.0.1:9200}, bound_addresses {[fe80::1]:9200}, {[::1]:9200}, {127.0.0.1:9200}
+[2017-12-15T23:55:07,957][INFO ][o.e.n.Node               ] [vukpIBq] started
+[2017-12-15T23:55:08,333][INFO ][o.e.g.GatewayService     ] [vukpIBq] recovered [6] indices into cluster_state
+[2017-12-15T23:55:09,513][INFO ][o.e.c.r.a.AllocationService] [vukpIBq] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[idx_twp][2], [idx_twp][4]] ...]).
